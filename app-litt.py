@@ -393,7 +393,7 @@ def page_login():
 
         st.markdown("<div style='text-align:center;color:#8892A4'>── ou ──</div>",
                     unsafe_allow_html=True)
-        if st.button("Jouer en mode invité (sans enregistrement du score)",
+        if st.button("Jouer en mode invité",
                      use_container_width=True):
             st.session_state.joueur = None
             st.session_state.page   = "accueil"
